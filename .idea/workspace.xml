@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d5bcd52-efaf-48e2-9352-edbc9111b209" name="변경" comment="ch05.JDBC 프로그래밍">
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/src/main/java/org/example/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/src/main/java/org/example/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/src/main/java/org/example/annotation/RequestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/src/main/java/org/example/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/src/test/java/org/example/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fc-Project10-Java-Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/was-practice.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/JdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/JdbcTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/PreparedStatementSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/PreparedStatementSetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/RowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/RowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/main/java/org/example/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/main/java/org/example/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/test/java/org/example/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/test/java/org/example/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-practice/src/test/resources/db_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/src/test/resources/db_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/jdbc-practice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/fileChanges/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/8.5/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/dependencies-accessors/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/WebApplicationServerLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/WebApplicationServerLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/domain/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/domain/PositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/tobe/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/tobe/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-practice/src/main/java/org/example/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/src/main/java/org/example/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/8.5/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/fileChanges/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/8.5/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/CustomWebApplicationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/CustomWebApplicationServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/EnumArithmeticOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/domain/PositiveNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/domain/PositiveNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/tobe/AdditionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/tobe/AdditionOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/tobe/ArithmeticOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/tobe/ArithmeticOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/tobe/DivisionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/tobe/DivisionOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/classes/java/main/org/example/calculator/tobe/SubtractionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/classes/java/main/org/example/calculator/tobe/SubtractionOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/servlet-practice/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/ClientRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/ClientRequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/CustomWebApplicationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/CustomWebApplicationServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/HttpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/HttpResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/QueryString.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/QueryString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/QueryStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/QueryStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/RequestLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/RequestLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/EnumArithmeticOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/domain/PositiveNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/domain/PositiveNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/tobe/AdditionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/tobe/AdditionOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/tobe/ArithmeticOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/tobe/ArithmeticOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/tobe/DivisionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/tobe/DivisionOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/production/classes/org/example/calculator/tobe/SubtractionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/production/classes/org/example/calculator/tobe/SubtractionOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/out/test/classes/org/example/RequestLineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/out/test/classes/org/example/RequestLineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/ClientRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/ClientRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/QueryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/QueryString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/QueryStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/QueryStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/RequestLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/RequestLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/domain/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/domain/PositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/test/java/org/example/QueryStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/test/java/org/example/QueryStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/test/java/org/example/QueryStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/test/java/org/example/QueryStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/src/test/java/org/example/RequestLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/src/test/java/org/example/RequestLineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was-practice/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/Part1-MVC-Framwork/was-practice/test.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Part1-MVC-Framwork/mvc-practice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/jdbc-practice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/servlet-practice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/was-practice">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="was-practice" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;g-boram&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/g-boram/fc-Project10-Java-Spring.git&quot;,
+    &quot;accountId&quot;: &quot;219d74ec-6fc6-49d6-92c6-1204846233fe&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2m91W0uuQrVImv0mjb5oSC55YXM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.was-practice [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 요청.test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RequestLineTest.create.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/goboram_1/IdeaProjects/fc-Project10-Java-Spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servlet-practice/src/main/java/org/example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Part1-MVC-Framwork" />
+    </key>
+  </component>
+  <component name="RunManager" selected="HTTP 요청.test | #2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="was-practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/was-practice/test.http" requestIdentifier="#1" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/was-practice/test.http" index="2" requestIdentifier="#2" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="RequestLineTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="was-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RequestLineTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.test | #2" />
+        <item itemvalue="HTTP 요청.test | #1" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="JUnit.RequestLineTest.create" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="2d5bcd52-efaf-48e2-9352-edbc9111b209" name="변경" comment="" />
+      <created>1726474005253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726474005253</updated>
+      <workItem from="1726474006361" duration="511000" />
+      <workItem from="1726474529260" duration="17529000" />
+      <workItem from="1726548222282" duration="167000" />
+      <workItem from="1726548393876" duration="83000" />
+      <workItem from="1726550758829" duration="114000" />
+    </task>
+    <task id="LOCAL-00001" summary="계산기 프로그램 웹 애플리케이션으로 만들기">
+      <option name="closed" value="true" />
+      <created>1726539063434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726539063434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="계산기 서블릿 예제">
+      <option name="closed" value="true" />
+      <created>1726540513132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726540513132</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ch05.JDBC 프로그래밍">
+      <option name="closed" value="true" />
+      <created>1726547035020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726547035020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="계산기 프로그램 웹 애플리케이션으로 만들기" />
+    <MESSAGE value="계산기 서블릿 예제" />
+    <MESSAGE value="ch05.JDBC 프로그래밍" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch05.JDBC 프로그래밍" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
