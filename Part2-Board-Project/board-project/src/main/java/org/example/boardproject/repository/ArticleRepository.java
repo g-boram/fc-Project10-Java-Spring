@@ -5,6 +5,7 @@ import com.querydsl.core.types.dsl.DateTimeExpression;
 import com.querydsl.core.types.dsl.StringExpression;
 import org.example.boardproject.domain.Article;
 import org.example.boardproject.domain.QArticle;
+import org.example.boardproject.repository.querydsl.ArticleRepositoryCustom;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -16,9 +17,9 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource
 public interface ArticleRepository extends
         JpaRepository<Article, Long>,
+        ArticleRepositoryCustom,
         QuerydslPredicateExecutor<Article>,
-        QuerydslBinderCustomizer<QArticle>
-{
+        QuerydslBinderCustomizer<QArticle> {
 
     Page<Article> findByTitleContaining(String title, Pageable pageable);
     Page<Article> findByContentContaining(String content, Pageable pageable);
@@ -28,16 +29,13 @@ public interface ArticleRepository extends
 
     @Override
     default void customize(QuerydslBindings bindings, QArticle root) {
-        // 선택적으로 검색 가능
         bindings.excludeUnlistedProperties(true);
-        // 선택할 내용 지정
         bindings.including(root.title, root.content, root.hashtag, root.createdAt, root.createdBy);
-//      likeIgnoreCase ---> like '${v}'
-//      containsIgnoreCase ---> like '%${v}%'
         bindings.bind(root.title).first(StringExpression::containsIgnoreCase);
         bindings.bind(root.content).first(StringExpression::containsIgnoreCase);
         bindings.bind(root.hashtag).first(StringExpression::containsIgnoreCase);
         bindings.bind(root.createdAt).first(DateTimeExpression::eq);
         bindings.bind(root.createdBy).first(StringExpression::containsIgnoreCase);
     }
+
 }
