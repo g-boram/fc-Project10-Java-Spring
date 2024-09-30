@@ -24,9 +24,10 @@ public class DataRestTest {
 
     private final MockMvc mvc;
 
-    DataRestTest(@Autowired MockMvc mvc) {
+    public DataRestTest(@Autowired MockMvc mvc) {
         this.mvc = mvc;
     }
+
 
     @DisplayName("[api] 게시글 리스트 조회")
     @Test

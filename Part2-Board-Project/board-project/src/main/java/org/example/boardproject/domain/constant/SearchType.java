@@ -1,9 +1,8 @@
-package org.example.boardproject.domain.type;
+package org.example.boardproject.domain.constant;
 
 
 import lombok.Getter;
 
-@Getter
 public enum SearchType {
     TITLE("제목"),
     CONTENT("본문"),
@@ -11,7 +10,7 @@ public enum SearchType {
     NICKNAME("닉네임"),
     HASHTAG("해시태그");
 
-    private final String description;
+    @Getter private final String description;
 
     SearchType(String description) {
         this.description = description;

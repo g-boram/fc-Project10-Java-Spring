@@ -1,2 +1,18 @@
-package org.example.boardproject.config;public class DataRestConfig {
+package org.example.boardproject.config;
+
+import org.example.boardproject.domain.UserAccount;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
+
+@Configuration
+public class DataRestConfig {
+
+    @Bean
+    public RepositoryRestConfigurer repositoryRestConfigurer() {
+        return RepositoryRestConfigurer.withConfig((config, cors) ->
+                config.exposeIdsFor(UserAccount.class)
+        );
+    }
+
 }
